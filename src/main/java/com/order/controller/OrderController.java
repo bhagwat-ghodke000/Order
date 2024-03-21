@@ -18,4 +18,9 @@ public class OrderController {
     public order getOrderSummary() {
         return orderService.getCount();
     }
+
+    @GetMapping("/name")
+    public String getname() {
+        return "Bhagwat Ghodke";
+    } 
 }
