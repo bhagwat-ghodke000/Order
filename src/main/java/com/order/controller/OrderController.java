@@ -22,5 +22,5 @@ public class OrderController {
     @GetMapping("/name")
     public String getname() {
         return "Bhagwat Ghodke";
-    } 
+    }
 }
